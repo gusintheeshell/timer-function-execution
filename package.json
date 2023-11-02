@@ -44,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/gusbdev/timer-function-execution/issues"
   },
-  "homepage": "https://github.com/gusbdev/timer-function-execution#readme"
+  "homepage": "https://github.com/gusbdev/timer-function-execution#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
