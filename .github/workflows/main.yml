@@ -21,12 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Configure .npmrc
-        run: echo -e "@gusbdev:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=\${{ secrets.NPM_TOKEN_GITHUB }}" > .npmrc 
-
-      - name: Build and Publish
-        run: npm publish
-
       - name: Configure .npmrc for public npm
         run: echo -e "//registry.npmjs.org/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc
 
