@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Configure .npmrc
-        run: echo "//npm.pkg.github.com/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo -e "@gusbdev:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc 
 
       - name: Build and Publish
         run: npm publish
