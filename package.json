@@ -1,5 +1,5 @@
 {
-  "name": "@gusbdev/timer-function-execution",
+  "name": "timer-function-execution",
   "version": "1.4.0",
   "description": "Measures function execution time. Supports synchronous and asynchronous functions.",
   "main": "./src/index.ts",
