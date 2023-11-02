@@ -17,5 +17,7 @@ declare module "timer-function-execution" {
     measureSync: (fn: () => any) => number;
   };
 
-  export { Timer, useTimer };
+  export { useTimer };
 }
+
+export default Timer;
