@@ -54,4 +54,4 @@ This library is open-source and available under the MIT License.
 
 ## Author
 
-Created by Gustavo Barbosa Figueiredo
+Created by [gusbdev](https://github.com/gusbdev)
