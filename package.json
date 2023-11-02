@@ -46,6 +46,10 @@
   },
   "homepage": "https://github.com/gusbdev/timer-function-execution#readme",
   "devDependencies": {
+    "@types/react": "^18.2.34",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
