@@ -1,0 +1,48 @@
+{
+  "name": "timer-function-execution",
+  "version": "1.0.0",
+  "description": "Measures function execution time. Supports synchronous and asynchronous functions.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gusbdev/timer-function-execution.git"
+  },
+  "keywords": [
+    "runtime",
+    "performance",
+    "measurement",
+    "performance",
+    "asynchronous",
+    "function",
+    "synchronous",
+    "function",
+    "code",
+    "monitoring",
+    "benchmark",
+    "JavaScript",
+    "React",
+    "Native",
+    "utility",
+    "software",
+    "development",
+    "performance",
+    "analysis",
+    "code",
+    "optimization",
+    "profiling",
+    "measurement",
+    "tool",
+    "api",
+    "mobile",
+    "web"
+  ],
+  "author": "Gustavo Barbosa Figueiredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusbdev/timer-function-execution/issues"
+  },
+  "homepage": "https://github.com/gusbdev/timer-function-execution#readme"
+}
