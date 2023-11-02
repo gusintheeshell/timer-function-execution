@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Timer from "./index";
+import Timer from "../../index";
 
 const useTimer = () => {
   const [timer] = useState(new Timer());
